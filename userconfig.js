@@ -16,17 +16,23 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "Disaster Relief",
-      background_url: "src/img/banners/cbg-09.gif",
+      name: "ABDR",
+      background_url: "src/img/banners/abdr-web-sidebar.png",
       categories: [
         {
-          name: "Communication",
+          name: "Work Space",
           links: [
             {
               name: "Outlook",
               url: "https://outlook.office.com/mail/",
-              icon: "envelope",
+              icon: "mail",
               icon_color: palette.green,
+            },
+			{
+              name: "Excel",
+              url: "https://www.microsoft365.com/launch/excel?auth=2",
+              icon: "file-excel",
+              icon_color: palette.blue,
             },
             {
               name: "Microsoft 365",
@@ -37,13 +43,13 @@ const default_config = {
           ],
         },
         {
-          name: "DR Resources",
+          name: "Resources",
           links: [
             {
-              name: "Arkansas Baptist DR",
-              url: "https://abscdisasterrelief.org/",
-              icon: "home-2",
-              icon_color: palette.peach,
+              name: "National Weather Service",
+              url: "https://www.weather.gov/",
+              icon: "cloud-sun",
+              icon_color: palette.blue,
             },
             {
               name: "Entergy Storm Center",
@@ -52,8 +58,8 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "National Weather Service",
-              url: "https://www.weather.gov/",
+              name: "National Hurricane Center",
+              url: "https://www.nhc.noaa.gov/",
               icon: "cloud-sun",
               icon_color: palette.blue,
             },
@@ -71,14 +77,20 @@ const default_config = {
             {
               name: "Assistance Request",
               url: "https://sbdr.formstack.com/forms/assistance_request",
-              icon: "form",
-              icon_color: palette.peach,
+              icon: "file-text",
+              icon_color: palette.yellow,
             },
             {
               name: "Daily Report",
               url: "https://sbdr.formstack.com/forms/daily_report",
               icon: "file-text",
-              icon_color: palette.red,
+              icon_color: palette.yellow,
+            },
+            {
+              name: "Dropbox Forms",
+              url: "https://www.dropbox.com/sh/99ox606a4twzug7/AAB3dMIIOD4QC3qkQuE5yxnQa?dl=0",
+              icon: "folder-down",
+              icon_color: palette.blue,
             },
           ],
         },
