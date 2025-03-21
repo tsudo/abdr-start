@@ -31,13 +31,13 @@ const default_config = {
 			{
               name: "Excel",
               url: "https://www.microsoft365.com/launch/excel?auth=2",
-              icon: "file-excel",
-              icon_color: palette.blue,
+              icon: "file-spreadsheet",
+              icon_color: palette.green,
             },
             {
               name: "Microsoft 365",
               url: "https://www.microsoft365.com/",
-              icon: "brand-microsoft",
+              icon: "world",
               icon_color: palette.blue,
             },
           ],
@@ -48,19 +48,19 @@ const default_config = {
             {
               name: "National Weather Service",
               url: "https://www.weather.gov/",
-              icon: "cloud-sun",
+              icon: "windsock",
               icon_color: palette.blue,
             },
             {
               name: "Entergy Storm Center",
               url: "https://www.entergynewsroom.com/storm-center/",
-              icon: "cloud",
+              icon: "bolt-off",
               icon_color: palette.red,
             },
             {
               name: "National Hurricane Center",
               url: "https://www.nhc.noaa.gov/",
-              icon: "cloud-sun",
+              icon: "storm",
               icon_color: palette.blue,
             },
             {
